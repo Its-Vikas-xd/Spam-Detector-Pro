@@ -8,6 +8,12 @@ import time
 import plotly.graph_objects as go
 from datetime import datetime
 
+import nltk
+nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)
+nltk.download('stopwords', quiet=True)
+
+
 # Page configuration
 st.set_page_config(
     page_title="Spam Detector Pro",
