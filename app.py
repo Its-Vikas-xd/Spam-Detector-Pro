@@ -395,9 +395,18 @@ if st.session_state.prediction_history:
 
 # Footer
 st.markdown("---")
-st.markdown("""
-<div style="text-align: center; color: #666; padding: 2rem;">
-    <p>🛡️ Spam Detector Pro | Powered by AI | Keep your messages safe</p>
-    <p><small>Built with Streamlit • Machine Learning • Natural Language Processing</small></p>
-</div>
-""", unsafe_allow_html=True)
+st.markdown(
+    """
+    <div style="text-align: center; color: #666; padding: 2rem;">
+        <p>🛡️ <b>Spam Detector Pro</b> | Powered by AI | Keep your messages safe</p>
+        <p><small>Built with Streamlit • Machine Learning • NLP</small></p>
+        <p>
+            🌐 <a href="https://vikas-portfolio-chi.vercel.app/" target="_blank">Portfolio</a> | 
+            💻 <a href="https://github.com/Its-Vikas-xd" target="_blank">GitHub</a> | 
+            🔗 <a href="https://www.linkedin.com/in/vikas-sharma-493115361/" target="_blank">LinkedIn</a> | 
+            ✖️ <a href="https://x.com/ItsVikasXd" target="_blank">X (Twitter)</a>
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
